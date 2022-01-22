@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.form-field {
+  width: 600px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 1rem auto;
+  border-radius: 5px;
+}
+.chips {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap:5px;
+}
+.chip {
+  background-color: rgb(197, 199, 201);
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.chip-cont,
+.chip-btn {
+  margin: 0 5px;
+  color: black;
+  background-color: none;
+}
+.chip-btn{
+  font-weight: bold;
+}
+.chip-input {
+  display: inline;
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
